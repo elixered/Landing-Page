@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #1F2937;
-    height: 320px;
+    height: 300px;
 }
 
 img{
@@ -68,6 +68,46 @@ button{
 
 /* random info starts here */
 
+.random-container{
+    padding-top: 30px;
+    padding-bottom: 120px;
+    height: 320px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.random-container h1{
+    font-size: 38px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+/* quote section begins here */
 
 
 
